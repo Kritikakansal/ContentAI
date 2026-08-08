@@ -4,27 +4,33 @@ An AI-powered content creation and improvement platform built with Python, Strea
 
 ## 🚀 Overview
 
-ContentAI helps users create platform-ready content and improve existing content using generative AI.
+ContentAI is a web-based application that helps users create platform-ready content and improve existing content using generative AI.
 
-The application allows users to select the type of content, define their audience and preferred style, and generate customized content within seconds.
+Users can select the type of content they want to create, define their target audience, choose a preferred tone and length, and generate customized content within seconds.
+
+The application also provides an option to improve existing content for better clarity, engagement, grammar, and platform suitability.
 
 ## ✨ Features
 
-### Content Generation
+### 📝 Content Generation
+
 - LinkedIn Posts
 - Instagram Captions
 - Professional Emails
 - Blog Outlines
 
-### Customization
+### 🎯 Customization
+
 - Target audience
 - Tone selection
 - Content length
 - Language selection
 - Emoji style
 
-### Content Improvement
+### ✏️ Content Improvement
+
 Users can paste existing content and improve it for:
+
 - Professional writing
 - Engagement
 - Conciseness
@@ -33,8 +39,9 @@ Users can paste existing content and improve it for:
 - Instagram
 - Email
 
-### Additional Features
-- AI-generated content using Google Gemini
+### ⚡ Additional Features
+
+- AI-powered content generation using Google Gemini
 - Word count
 - Character count
 - Download generated content
@@ -55,9 +62,13 @@ Users can paste existing content and improve it for:
 ```text
 ContentAI/
 │
+├── screenshots/
+│   ├── main-interface.png
+│   ├── content-form.png
+│   ├── blog-outline.png
+│   └── generated-content.png
+│
 ├── app.py
 ├── requirements.txt
 ├── .gitignore
-├── README.md
-│
-└── .env
+└── README.md

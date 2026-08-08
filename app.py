@@ -90,11 +90,7 @@ def display_output(content, download_name):
 
         # Generated content
         # Streamlit provides a native copy button here
-        st.code(
-            content,
-            language=None,
-            wrap_lines=True
-        )
+        st.markdown(content)
 
         st.divider()
 
